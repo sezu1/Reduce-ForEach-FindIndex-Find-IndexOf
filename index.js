@@ -59,7 +59,7 @@ console.log(obj)
 funciya();
 
 
-const datas = [['a', 1], ['b', 2]];
+const datas = [['a', 1], ['b', 3]];
 const obj = datas.reduce((acc, [key, value]) => 
         ({...acc, [key] : value })
 , {})
